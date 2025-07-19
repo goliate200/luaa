@@ -6,7 +6,7 @@ spawn(function()
         Webhook = "https://discord.com/api/webhooks/1368349602901921884/KBMcZ3469kfFuypOdovJWoYd3ghB46rGesPi2BBR7Pn9JbyYCooaOyqjg0i6kIzMAiHV",
         Ping = "<@807429851895300107> you hatched a secret",
         Rarities = {"Legendary", "Secret", "Infinity"},
-        Ignore = {"Unicorn", "Paragon", "Emerald Golem", "Platinum Dualcorn", "Void Eye", "Neon Wyvern", "Soarin' Surfer", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "Fossilus", "Kiwi Dragon", "Popsicle Trio"},
+        Ignore = {"Unicorn", "Paragon", "Angel Bee", "Emerald Golem", "Platinum Dualcorn", "Void Eye", "Neon Wyvern", "Soarin' Surfer", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "Fossilus", "Kiwi Dragon", "Popsicle Trio"},
         SkipEasyLegends = true,
         HatchAmounts = false,
         Server = false,
