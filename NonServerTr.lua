@@ -24,7 +24,7 @@ textLabel.Position = UDim2.new(0.5, -100, 0.1, 0)
 textLabel.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
 textLabel.TextColor3 = Color3.new(1, 1, 1)
 textLabel.Font = Enum.Font.SourceSansBold
-textLabel.TextSize = 28
+textLabel.TextSize = 14
 textLabel.Parent = screenGui
 
 -- Optional: Fade out after a few seconds
