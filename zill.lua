@@ -43,7 +43,7 @@ spawn(function()
         Ignore = {"Unicorn", "Paragon", "Angel Bee", "Emerald Golem", "Platinum Dualcorn", "Void Eye", "Neon Wyvern", "Soarin' Surfer", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "Fossilus", "Kiwi Dragon", "Popsicle Trio"},
         SkipEasyLegends = true,
         HatchAmounts = false,
-        Server = false,
+        Server = true,
     }
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jakemo31/bgsi/refs/heads/main/bgsihatcher.lua"))()
 end)
