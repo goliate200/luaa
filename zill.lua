@@ -1,4 +1,4 @@
-repeat wait() until game:IsLoaded()
+erepeat wait() until game:IsLoaded()
 
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
@@ -38,7 +38,7 @@ repeat wait() until LocalData:IsReady()
 spawn(function()
     getgenv().PetHatcher = {
         Webhook = "https://discord.com/api/webhooks/1368349602901921884/KBMcZ3469kfFuypOdovJWoYd3ghB46rGesPi2BBR7Pn9JbyYCooaOyqjg0i6kIzMAiHV",
-        Ping = "<@807429851895300107> you hatched a secret",
+        Ping = "<@807429851895300107> hey nigger nice secret",
         Rarities = {"Legendary", "Secret", "Infinity"},
         Ignore = {"Unicorn", "Paragon", "Angel Bee", "Emerald Golem", "Platinum Dualcorn", "Void Eye", "Neon Wyvern", "Soarin' Surfer", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "Fossilus", "Kiwi Dragon", "Popsicle Trio"},
         SkipEasyLegends = true,
