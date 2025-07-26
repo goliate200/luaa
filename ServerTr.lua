@@ -34,9 +34,9 @@ repeat wait() until LocalData:IsReady()
 spawn(function()
     getgenv().PetHatcher = {
         Webhook = "https://discord.com/api/webhooks/1368315112737210398/ydQykT7Wt2IqZy94QkmVXOHkgE5jvPw0mYNSiUNJBn2ClRlk0-M7GFLcD6IjwsnWwLGU",
-        Ping = "Secret Hatched <@&785853304328421447>",
+        Ping = "<@&785853304328421447> Secret Hatched!",
         Rarities = {"Legendary", "Secret", "Infinity"},
-        Ignore = {"Unicorn", "Angel Bee", "Paragon", "Stone Gargoyle", "Emerald Golem", "Platinum Dualcorn", "Void Eye", "Neon Wyvern", "Soarin' Surfer", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig", "Fossilus", "Kiwi Dragon", "Popsicle Trio"},
+        Ignore = {"Unicorn", "Paragon", "Emerald Golem", "Platinum Dualcorn", "Void Eye", "Stone Gargoyle", "Neon Wyvern", "Soarin' Surfer", "Neon Elemental", "Lunar Serpent", "Electra", "Inferno Dragon", "Cyborg Phoenix", "Crystal Unicorn", "Green Hydra", "Inferno Cube", "Dark Phoenix", "Flying Pig"},
         SkipEasyLegends = true,
         HatchAmounts = false,
         Server = true,
