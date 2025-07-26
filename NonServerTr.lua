@@ -3,22 +3,20 @@ repeat wait() until game:IsLoaded()
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
--- Check if UI already exists
 if playerGui:FindFirstChild("EnabledUI") then
-    warn("Enabled UI is already active. Script will not run again.")
+    warn("active ui fuck awf")
     return
 end
 
--- Create a ScreenGui
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "EnabledUI"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = playerGui
 
--- Create a TextLabel
+
 local textLabel = Instance.new("TextLabel")
 textLabel.Name = "EnabledLabel"
-textLabel.Text = "✅ Enabled Pet Hatcher"
+textLabel.Text = "✅ Pet Hatcher Enabled"
 textLabel.Size = UDim2.new(0, 200, 0, 50)
 textLabel.Position = UDim2.new(0.5, -100, 0.1, 0)
 textLabel.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
@@ -27,7 +25,6 @@ textLabel.Font = Enum.Font.SourceSansBold
 textLabel.TextSize = 14
 textLabel.Parent = screenGui
 
--- Optional: Fade out after a few seconds
 wait(3)
 textLabel:TweenPosition(UDim2.new(0.5, -100, -0.2, 0), "Out", "Quad", 1)
 wait(1)
